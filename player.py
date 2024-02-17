@@ -13,10 +13,10 @@ class Player(Turtle):
 
     def create_turtle(self):
         self.color("black")
-        self.penup()
-        self.goto(STARTING_POSITION)
-        self.setheading(90)
         self.shape("turtle")
+        self.penup()
+        self.setheading(90)
+        self.goto(STARTING_POSITION)
 
     def move(self):
         self.forward(MOVE_DISTANCE)
